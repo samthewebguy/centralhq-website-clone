@@ -1005,11 +1005,8 @@ a svg{
     /*Section Five */
 
     .section-five{
-        width: 100%;
-    }
-
-    .section-five-inner{
-        padding: 0px 3%;
+        padding: 40px 3%;
+        
     }
     .section-five-inner-container{
         display: grid;
@@ -1028,13 +1025,31 @@ a svg{
     }
 
     .section-seven{
-        width: 100%;
+        padding: 40px 3%;
+        
+    }
+    
+    .section-seven-inner-container{
+        display: block;
+        justify-content: flex-start;
+    }
+
+    .section-seven-inner-container h1{
+        text-align: left;
+    }
+
+    .section-seven-inner-container p{
+        text-align: left;
+    }
+
+    .section-seven-inner-container-column-one{
+        margin-bottom: 24px;
     }
 
     /* Section Eight */
 
     .section-eight{
-        padding: 10px 3%;
+        padding: 20px 3%;
         width: 100%;
     }
 
