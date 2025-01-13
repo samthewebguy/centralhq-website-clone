@@ -1,9 +1,17 @@
-function showMobileMenu() {
-    const mobileMenu = document.querySelector ('.mobileMenu')
-    mobileMenu.style.display = ('flex')
+function showMobileNav(){
+    const mobileNav = document.querySelector('.mobileNav');
+    mobileNav.style.display=('flex');
+    const MobileNavCloseIcon = document.querySelector('.MobileNavCloseIcon')
+    MobileNavCloseIcon.style.display=('flex')
+    const mobileHamburger = document.querySelector('.mobileHamburger')
+    mobileHamburger.style.display=('none')
 }
 
-function hideMobileMenu() {
-    const mobileMenu = document.querySelector ('.mobileMenu')
-    mobileMenu.style.display = ('none')
+function hideMobileNav(){
+    const mobileNav = document.querySelector('.mobileNav');
+    mobileNav.style.display=('none')
+    const mobileHamburger = document.querySelector('.mobileHamburger')
+    mobileHamburger.style.display=('flex')
+    const MobileNavCloseIcon = document.querySelector('.MobileNavCloseIcon')
+    MobileNavCloseIcon.style.display=('none')
 }

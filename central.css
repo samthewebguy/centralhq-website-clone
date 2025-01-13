@@ -107,7 +107,40 @@ a svg{
     height: 24px;
 }
 
-.mobile-hamburger{
+
+.mobileNav{
+    position: fixed;
+    top: 60px;
+    right: 0;
+    width: 250px;
+    height: 100vh;
+    padding: 16px;
+    background-color: #fff;
+    color: #000;
+    display: none;
+    align-items: flex-start;
+    justify-content: center;
+    z-index: 1;
+}
+
+.mobileNav .nav-items-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mobileNav .nav-items-menu .start-button{
+    width: 100%;
+}
+
+.start-button{
+    height: fit-content;
+}
+
+.mobileHamburger{
+    display: none;
+}
+.MobileNavCloseIcon{
     display: none;
 }
 
@@ -877,47 +910,24 @@ a svg{
 
 /* Mobile Menu */
 
-.mobileMenu{
-    position: fixed;
-    top: 0;
-    right: 0;
-    padding-left: 20px;
-    height: 250px;
-    width: 250px;
-    z-index: 999;
-    background-color: #f9f7f1;
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.mobileMenu .nav-items-menu{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 @media (max-width: 800px) {
 
-    body{
-        overflow-x: hidden;
+    .start-button {
+        height: fit-content;
     }
 
-    .mobileMenu{
-        width: 100%;
+    .mobileHamburger{
+        display: block;
     }
 
     .hideOnMobile{
         display: none;
     }
 
-    .mobile-hamburger{
-        display: block;
-    }
-
-    .start-button {
-        height: fit-content;
+    .mobileNav{
+        width: 100%;
+        height: 150px;
+        align-items: center;
     }
 
     .header{
