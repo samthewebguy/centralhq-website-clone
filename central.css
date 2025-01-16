@@ -118,7 +118,7 @@ a svg{
     display: none;
     align-items: flex-start;
     justify-content: center;
-    z-index: 100;
+    z-index: 1;
 }
 
 .mobileNav .nav-items-menu{
