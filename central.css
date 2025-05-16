@@ -182,7 +182,7 @@ a svg{
 
 .hero-section h1{
     font-size: 68px;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 1.2em;
     max-width: 14ch;
     letter-spacing: -0.03em;
@@ -213,70 +213,27 @@ a svg{
     letter-spacing: -0.01em;
 }
 
-.hero-section-button a:first-child{
+.hero-section-button a{
     background-color: #1f1b14;
     color: #fff;
-    padding: 10px 13px;
+    padding: 12px 60px;
     border-radius: 10px;
 }
 
-.hero-section-button a:last-child{
-    background-color: #1f1b140d;
-    color: #1f1d14;
-    padding: 10px 13px;
-    border: 1px solid #1f1b1412;
-    border-radius: 10px;
+.hero-section .hero-small-p{
+    align-items: center;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5em;
+    letter-spacing: -0.01em;
+    color: #0e0d0b99;
+    text-align: center;
+    max-width: 51ch;
+    margin-top: 24px;
+
 }
 
 /* Section Two */
-
-.slider{
-    height: 100px;
-    width: auto;
-    padding: 20px 0px;
-    margin: 0px 10%;
-    position: relative;
-    overflow: hidden;
-}
-
-.slider .slide-track{
-    display: flex;
-    animation: scroll 40s linear infinite;
-    width: calc(150px * 15);
-    animation-play-state: running;
-}
-
-.slider .slide{
-    height: 100px;
-    width: 150px;
-    
-}
-
-.slider:hover .slide-track{
-    animation-play-state: paused;
-}
-
-.slider .fade {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 10%;
-    z-index: 2;
-    pointer-events: none;
-    background: linear-gradient(to right, #f9f7f1, rgba(255, 255, 255, 0));
-}
-
-.slider .fade-left {
-    left: 0;
-    background: linear-gradient(to right, #f9f7f1, rgba(255, 255, 255, 0));
-}
-
-.slider .fade-right {
-    right: 0;
-    background: linear-gradient(to left, #f9f7f1, rgba(255, 255, 255, 0));
-}
-
-/* Section Three */
 
 .big-image{
     display: flex;
@@ -293,7 +250,7 @@ a svg{
     border-radius: 10px;
 }
 
-/* Section four */
+/* Section Three */
 
 .section-four{
     display: flex;
@@ -334,7 +291,7 @@ a svg{
 
 .span-text-blue{
     font-size: 32px;
-    Font-weight: 500;
+    Font-weight: 400;
     color: #1a0dab;
     line-height: 1.25em;
     letter-spacing: -0.03em;
@@ -342,7 +299,7 @@ a svg{
 
 .span-text-lightblue{
     font-size: 32px;
-    Font-weight: 500;
+    Font-weight: 400;
     color: #1a0dab80;
     line-height: 1.25em;
     letter-spacing: -0.03em;
@@ -350,7 +307,7 @@ a svg{
 
 .info-details h4{
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 1em;
     letter-spacing: -0.03em;
     color: #1f1d14;
@@ -404,7 +361,7 @@ a svg{
     display: none;
 }
 
-/* Section Five */
+/* Section Four */
 
 .section-five{
     display: flex;
@@ -454,7 +411,7 @@ a svg{
 
 .inner-column-heading h3{
     font-size: 28px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.2em;
     letter-spacing: -0.02em;
     color: #1f1d14;
@@ -562,7 +519,7 @@ a svg{
 
 .section-seven-inner-container-column-one .one-price-text{
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.25em;
     letter-spacing: -0.03em;
     color: #1f1d14;
@@ -571,7 +528,7 @@ a svg{
 }
 .section-seven-inner-container-column-one .free-text{
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.25em;
     letter-spacing: -0.03em;
     color: #0e0d0b99;
@@ -582,7 +539,7 @@ a svg{
 
 .section-seven-inner-container-column-one a{
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.25em;
     letter-spacing: -0.01em;
     background-color: #1f1b140d;
@@ -605,7 +562,7 @@ a svg{
 
 .section-seven-inner-container-column-two h1{
     font-size: 64px;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 1.25em;
     letter-spacing: -0.03em;
     color: #1f1d14;
@@ -681,7 +638,7 @@ a svg{
 
 .testimonial-info-details h4{
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 1.25em;
     letter-spacing: -0.03em;
     color: #1f1d14;
@@ -719,7 +676,7 @@ a svg{
 
 .section-nine-inner-container h2{
     font-size: 68px;
-    font-weight: 600;
+    font-weight: 400;
     color: #1f1d14;
     line-height: 1.25em;
     letter-spacing: -0.03em;
@@ -782,7 +739,7 @@ a svg{
 }
 
 .footer-logo h4{
-    font-weight: 500;
+    font-weight: 400;
     font-size: 20px;
     letter-spacing: -0.03em;
     color: #F9F7F1;
@@ -820,7 +777,7 @@ a svg{
 
 .footer-content-wrapper .second-column h4{
    font-size: 15px;
-   font-weight: 500;
+   font-weight: 400;
    line-height: 1.25em;
    letter-spacing: -0.03em;
    color: #f9f7f13f;
@@ -828,7 +785,7 @@ a svg{
 
 .footer-content-wrapper .third-column h4{
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.25em;
     letter-spacing: -0.03em;
     color: #f9f7f13f;
@@ -836,7 +793,7 @@ a svg{
 
  .footer-content-wrapper .fourth-column h4{
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.25em;
     letter-spacing: -0.03em;
     color: #f9f7f13f;
@@ -991,13 +948,14 @@ a svg{
         text-align: center;
     }
 
-    .hero-section-button a:first-child{
+    .hero-section-button a{
         padding: 12px 16px;
 
     }
+
+    .hero-section .hero-small-p{
+        text-align: left;
     
-    .hero-section-button a:last-child{
-        padding: 12px 16px;
     }
 
         /*Section Two*/
