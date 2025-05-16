@@ -770,9 +770,10 @@ a svg{
     margin-right: 4px;
 }
 
-.footer-inner-container .footer-content-wrapper .first-column .social-icons img{
+.footer-inner-container .footer-content-wrapper .first-column .social-icons i{
     width: 24px;
     height: 24px;
+    color: #f9f7f13f;
 }
 
 .footer-content-wrapper .second-column h4{
